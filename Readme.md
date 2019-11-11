@@ -2,6 +2,13 @@
 LibPLN: A Library for Efficient Powerlaw Noise Generation
 ==============================================================
 
+Project relationship
+-------------------------------
+
+This project is part of the **ptp-sim** project.
+See the [ptp-sim project page](https://ptp-sim.github.io/) for more information.
+There is also the [ptp-sim discussion forum](http://ptp-sim.boards.net) for further discussions.
+
 Project description
 -------------------------------
 
@@ -181,4 +188,4 @@ This project is licensed under the GPLv3 license. See the COPYING file for detai
 Contact
 ---------------------
 
-Wolfgang Wallner (wolfgang-wallner [AT] gmx.at)
+Please visit the [ptp-sim discussion forum](http://ptp-sim.boards.net) for further discussions.
