@@ -37,6 +37,7 @@
 
 #include <cassert>
 #include <numeric>
+#include <stdexcept>
 
 #include "TdGuess.hpp"
 #include "TdVecGen/TdVecGen.hpp"
