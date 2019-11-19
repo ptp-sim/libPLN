@@ -135,7 +135,12 @@ These libraries need to be present on your system for a successful build.
 
 ### Building the library
 
-* Start the CMake GUI from a shell that has your compiler of choice in its path.
+* Install the requirements listed above. On an Ubuntu 16.04 system this can be done by executing:
+`sudo apt install cmake-qt-gui libfftw3-dev libboost-random-dev libboost-program-options-dev`
+
+* Change to the libPLN folder and start the CMake GUI from a shell that has your compiler of choice in its PATH with the following command (be aware of the . after cmake-gui!):
+`cmake-gui .`
+
 *Remark:* The main motivation for the development of libPLN was to use it with the [OMNeT++ Discrete Event Simulator][8].
 If you would like to use libPLN on Windows with OMNeT++, you will have to make sure to use the compiler provided by OMNeT++ for the compilation of libPLN.
 OMNeT++ provides a shell with correctly configured environment that can be used for this purpose.
