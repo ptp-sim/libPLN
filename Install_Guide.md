@@ -86,25 +86,25 @@ We assume a __Kubuntu 16.04__ installation in this section. The steps should be 
 * Call`make all`:
 
 > $ make all  
-> [  2%] Building CXX object src/CMakeFiles/PLN.dir/TdEstChain.cpp.o
-> [  4%] Building CXX object src/CMakeFiles/PLN.dir/TdOracle.cpp.o
-> ...
-> [ 73%] Building CXX object src/CMakeFiles/PLN.dir/Utils/VectorTypes.cpp.o
-> [ 76%] Linking CXX static library libPLN.a
-> [ 76%] Built target PLN
-> [ 78%] Building CXX object Examples/CMakeFiles/PLN_Examples.dir/AverageOscillator_20MHz/AverageOscillator_20MHz.cpp.o
-> 
-> [100%] Linking CXX static library libPLN_Examples.a
+> [  2%] Building CXX object src/CMakeFiles/PLN.dir/TdEstChain.cpp.o  
+> [  4%] Building CXX object src/CMakeFiles/PLN.dir/TdOracle.cpp.o  
+> ...  
+> [ 73%] Building CXX object src/CMakeFiles/PLN.dir/Utils/VectorTypes.cpp.o  
+> [ 76%] Linking CXX static library libPLN.a  
+> [ 76%] Built target PLN  
+> [ 78%] Building CXX object Examples/CMakeFiles/PLN_Examples.dir/AverageOscillator_20MHz/AverageOscillator_20MHz.cpp.o  
+> ...  
+> [100%] Linking CXX static library libPLN_Examples.a  
 > [100%] Built target PLN_Examples
 
 * Call`make install`:
 
-> $ make install
-> [ 76%] Built target PLN
-> [100%] Built target PLN_Examples
-> Install the project...
-> -- Install configuration: ""
-> -- Installing: /home/woife/ptp/libPLN/build/lib/static/libPLN.a
+> $ make install  
+> [ 76%] Built target PLN  
+> [100%] Built target PLN_Examples  
+> Install the project...  
+> -- Install configuration: ""  
+> -- Installing: /home/woife/ptp/libPLN/build/lib/static/libPLN.a  
 > -- Installing: /home/woife/ptp/libPLN/build/lib/static/libPLN_Examples.a
 
 * Now you should have two static library files in the path _lib/static_:
