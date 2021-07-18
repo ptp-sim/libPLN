@@ -119,7 +119,7 @@ __Step 2.2:__ Within the console, change to the libPLN folder.
 ### Step 3: Makefile generation with CMake
 
 __Step 3.1:__ Create a build folder, and change into that folder:
-> mkdir build
+> mkdir build  
 > cd build
 
 __Step 3.2:__ Start the CMake GUI, and provide a relative path to the parent directory as an argument ("..")
